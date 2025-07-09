@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+.wrapper {
+    @apply bg-[#0a192f] py-10 px-6;
+}
+.inner {
+    @apply max-w-4xl w-full mx-auto;
+}
+.header {
+    @apply max-w-4xl w-full mx-auto text-left font-mono;
+}
+
+.project-heading{
+    @apply text-[#ccd6f6] text-3xl font-bold mb-4 mb-10 font-mono;
+}
+
+.projects-grid{
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto;
+}
+
+.project-card {
+    @apply bg-[#112240] text-slate-300 p-15 rounded-lg shadow-md transition duration-300 hover:ring-2 hover:ring-teal-400 font-mono;
+  }
+  
+.project-title {
+    @apply text-xl font-semibold text-[#64ffda] mb-2 font-mono;
+}
+  
+.project-desc {
+    @apply text-sm leading-relaxed font-mono;
+}
+.programming-utilities{
+    @apply mt-4 text-sm leading-relaxed font-mono;
+}
+.icon-img {
+    @apply w-6 h-6 hover:opacity-80 transition duration-200;
+}
+.github-icon {
+    @apply mb-2 inline-block; /* margin below icon */
+}

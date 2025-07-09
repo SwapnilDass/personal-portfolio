@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+.wrapper {
+    @apply bg-[#0a192f] py-10 px-6
+}
+  
+.header {
+    @apply max-w-4xl w-full mx-auto text-left;
+  }
+
+.about-heading{
+    @apply text-[#ccd6f6] text-3xl font-bold mb-4;
+}
+
+.about-description{
+    @apply text-slate-400 text-base sm:text-lg leading-relaxed max-w-2xl;
+}
+.tech-stack{
+    @apply text-slate-400 text-base sm:text-lg leading-relaxed mt-6;
+}
+.tech-items{
+    @apply  grid grid-cols-4 sm:grid-cols-3 gap-1 text-slate-400 mt-3
+}
+
+.tech-component{
+    @apply hover:text-teal-400 transition-colors duration-200
+}

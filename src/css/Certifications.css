@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.wrapper {
+    @apply bg-[#0a192f] py-10 px-6;
+}
+.inner {
+    @apply max-w-4xl w-full mx-auto;
+}
+.header {
+    @apply text-[#ccd6f6] text-3xl font-bold mb-6 font-mono;
+}
+.cert-image-container{
+    @apply transition-all duration-500 ease-in-out overflow-hidden mt-4;
+}
+.cert-image-container.show {
+    @apply max-h-[1000px] opacity-100;
+}
+  
+.cert-image-container.hide {
+    @apply max-h-0 opacity-0;
+}
+  
+.cert-img {
+    @apply w-full max-w-md mx-auto rounded-lg shadow-lg;
+}
+.cert-toggle1{
+    @apply text-xl font-semibold text-white hover:text-teal-400 mb-2 font-mono duration-200 cursor-pointer;
+}
+.cert-toggle2{
+    @apply text-xl font-semibold text-white hover:text-teal-400 mb-2 font-mono duration-200 cursor-pointer;
+}

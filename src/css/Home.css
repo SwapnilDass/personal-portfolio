@@ -9,7 +9,7 @@ body{
 }
   
 .intro-text {
-  @apply max-w-4xl text-left;
+  @apply  max-w-4xl text-left;
 }
 
 .greeting{
@@ -17,7 +17,7 @@ body{
 }
 
 .name{
-  @apply text-[#ccd6f6] text-5xl sm:text-6xl font-bold  mb-4 hover:text-teal-400 transition-colors duration-200 font-mono;
+  @apply animate-pulse text-[#ccd6f6] text-5xl sm:text-6xl font-bold  mb-4 hover:text-teal-400 transition-colors duration-200 font-mono;
 }
 
   

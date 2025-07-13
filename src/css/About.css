@@ -10,7 +10,7 @@
   }
 
 .about-heading{
-    @apply text-[#ccd6f6] text-3xl font-bold mb-4;
+    @apply text-[#ccd6f6] text-3xl font-bold mb-4 ;
 }
 
 .about-description{
@@ -19,10 +19,9 @@
 .tech-stack{
     @apply text-slate-400 text-base sm:text-lg leading-relaxed mt-6;
 }
-.tech-items{
-    @apply  grid grid-cols-4 sm:grid-cols-3 gap-1 text-slate-400 mt-3
+.tech-items {
+  @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 mt-3;
 }
-
 .tech-component{
     @apply hover:text-teal-400 transition-colors duration-200
 }

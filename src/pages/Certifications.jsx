@@ -15,7 +15,7 @@ function Certifications(){
             <div className="inner">
 
                 <div className= "header">
-                    <span className= "text-teal-400">/</span>certifications (click to open)
+                    <span className= "text-teal-400 animate-ping">/</span>certifications (click to open)
                 </div>
 
                 <button onClick={toggleCert1} className="cert-toggle1">

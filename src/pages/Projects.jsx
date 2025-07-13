@@ -8,7 +8,7 @@ function Projects(){
             <div className= "inner">
                 <div className="header">
                     <h2 className="project-heading">
-                        <span className= "text-teal-400">/</span>Projects
+                        <span className= "text-teal-400 animate-ping">/</span>Projects
                     </h2>
                 </div>
                 

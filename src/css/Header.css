@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 .header-wrapper{
-    @apply w-full bg-[#0a192f] py-4 px-6 fixed top-0 z-50;
+    @apply w-full bg-[#0a192f] py-4 px-6 ;
 }
 .header-inner {
-    @apply max-w-6xl mx-auto flex justify-between items-center;
+  @apply flex justify-between items-center max-w-7xl mx-auto;
 }
 .header-left {
     @apply flex items-center space-x-6;
@@ -17,8 +17,8 @@
 .nav-links a{
     @apply flex text-white hover:text-teal-400 font-mono  duration-200;
 }
-.social-icons{
-    @apply flex space-x-4;
+.social-icons {
+  @apply flex space-x-4 flex-wrap sm:flex-nowrap;
 }
 .icon-img {
     @apply w-5 h-5 hover:opacity-80 transition duration-200;

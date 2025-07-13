@@ -5,7 +5,7 @@ function About(){
         <div id="about" className= "wrapper">
             <div className="header"> 
                 <h2 className= "about-heading"> 
-                    <span className= "text-teal-400">/</span>about me </h2> 
+                    <span className=  "text-teal-400 animate-ping ">/</span>about me </h2> 
                 <p className= "about-description" >
                 Currently in my third year of Computer Science at <span className= "text-teal-400">Toronto Metropolitan University</span>, I’m building skills in web development, artificial intelligence, cloud computing, and beyond. My goal is to become a full-stack developer with a deep understanding of AI systems, and to contribute to impactful, meaningful software projects
                 </p>

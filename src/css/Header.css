@@ -4,7 +4,7 @@
     @apply w-full bg-[#0a192f] py-4 px-6 ;
 }
 .header-inner {
-  @apply flex justify-between items-center max-w-7xl mx-auto;
+  @apply flex justify-between items-center flex-wrap max-w-7xl mx-auto;
 }
 .header-left {
     @apply flex items-center space-x-6;

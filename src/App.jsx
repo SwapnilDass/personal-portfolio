@@ -4,6 +4,7 @@ import Projects from "./pages/Projects.jsx"
 import Header from "./pages/Header.jsx"
 import Certifications from "./pages/Certifications.jsx"
 import Footer from "./pages/Footer.jsx"
+import Experience from "./pages/Experience.jsx"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Header/>
         <Home/>
         <About/>
+        <Experience/>
         <Projects/>
         <Certifications/>
         <Footer/>
